@@ -1,0 +1,105 @@
+---
+# 🚀 SaaS E-Commerce Multi-Service
+
+A modern **SaaS E-Commerce platform** built with a scalable **multi-service architecture**, designed for rapid growth and future feature expansion.
+---
+
+## 🧠 Tech Stack
+
+**Backend**
+
+- Node.js (Express)
+- MongoDB
+- Redis
+- Apache Kafka
+- JWT Authentication
+
+**Frontend**
+
+- Next.js
+- TanStack (React Query / Flow)
+
+**Integrations**
+
+- Google OAuth
+- Email Service (Verification & Notifications)
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication
+
+- Secure user registration with email verification
+- JWT-based authentication
+- Login with email & password
+- Google social login
+
+### 📧 Email System
+
+- Verification email on signup
+- Event-driven email processing via Kafka
+
+### ⚡ Performance & Scalability
+
+- Redis caching
+- Event-based communication using Kafka
+- Service-oriented architecture
+
+---
+
+## 🛣️ Roadmap
+
+- [ ] Multi-tenant SaaS support
+- [ ] Product & service management
+- [ ] Subscription & billing
+- [ ] Payment gateway integration
+- [ ] Role-based access control
+- [ ] Admin dashboard
+- [ ] Docker & CI/CD
+
+---
+
+## 🏗️ Architecture (High Level)
+
+```
+Next.js Client
+      ↓
+API Gateway (Express)
+      ↓
+Auth / User / Email Services
+      ↓
+Kafka Broker & Redis
+```
+
+---
+
+## ⚙️ Environment Variables
+
+```env
+MONGO_URI=
+REDIS_URL=
+JWT_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+EMAIL_USER=
+EMAIL_PASS=
+KAFKA_BROKER=
+```
+
+---
+
+## 🚧 Status
+
+**MVP – Active Development**
+Features will be added incrementally and documented as completed.
+
+---
+
+## 👨‍💻 Author
+
+**Ilham Suryana**
+Backend / Fullstack Developer
+Building scalable SaaS & microservice systems
+
+---
