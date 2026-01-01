@@ -8,6 +8,19 @@
     },
     {
       "path": "./apps/auth-service"
+    },
+    {
+      "path": "./apps/api-gateway"
+    },
+    {
+      "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "target": "ES2023",
+        "strict": true,
+        "esModuleInterop": true,
+        "ignoreDeprecations": "6.0"
+      }
     }
   ]
 }

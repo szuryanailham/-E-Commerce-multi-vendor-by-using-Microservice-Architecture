@@ -9,7 +9,7 @@
         "outputs": [
           "{options.outputPath}"
         ],
-        "defaultConfiguration": "production",
+        "defaultConfiguration": "development",
         "options": {
           "platform": "node",
           "outputPath": "apps/auth-service/dist",
